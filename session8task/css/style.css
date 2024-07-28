@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Oswald:wght@502&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Oswald:wght@502&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rufina:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color: white;
+    --second-color: #C2EFD4;
+    --text-color: #224F34;
+}
+ .theContainer{
+    background-color: var(--main-color);
+ }
+
+ .card1{
+    background-color: var(--second-color);
+ }
+
+ .brand{
+    font-family: "Orelega One", serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    color: var(--text-color);
+ }
+
+ .bar-list{
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+ }
+
+ .custom-border {
+    border: 3px solid #224F34;
+    color: #224F34;
+    padding: 3px;
+}
+
+.card2{
+    background-color: var(--second-color);
+    height: 700px;
+ }
+
+ .ml-7{
+    margin-left: 7.25rem;
+}
+
+.container-card2 h2{
+    font-family: "Rufina", serif;
+    font-weight: 500;
+    font-size: 85px;
+    line-height: 70px;
+    color: var(--text-color);
+}
+
+.w-38{
+    width: 38%;
+}
+
+.container-card2 span{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+    line-height: 34px;
+    color: #267D49;
+    position: relative;
+    top: 17px;
+    display: inline-block;
+    width: 74%;
+}
+
+.container-card2{
+    height: 450px;
+}
+
+.button {
+    display: inline-block;
+    border: 3px solid #224F34; 
+    background-color: #224F34; 
+    color: white; 
+    margin-top: 3rem; 
+    padding: 0.5rem 1rem; 
+    text-align: center;
+    width: 46% !important;
+    font-size: 16px !important;
+}
+
+.button a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.w-38{
+    width: 38%;
+}
+
+
+.container2-card2{
+    width: 28% ;
+    margin-right: 7rem;
+
+}
+
+.poster{
+    background-color: #45b271;
+    height: 84%;
+    border-radius: 100px;
+}
+
+.card3-1 h2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.card3-2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: var(--text-color);
+}
+
+.card3-3{
+    width: 55%;
+}
+
+.card3-3 img{
+    width: 100%;
+    height: 370px;
+}
+
+.mr-8{
+    margin-right: 8rem !important;
+}
+
+.ml-10{
+    margin-left: 10rem !important;
+}
+
+.ml-4{
+    margin-left: 4rem !important;
+}
+
+.ml-6{
+    margin-left: 5.5rem !important;
+}
+
+.ml-12{
+    margin-left: 12rem !important;
+}
+
+.bottom-23{
+    position: relative;
+    bottom: 23px;
+}
+
+.card3-4{
+    width: 12%;
+}
+
+.button2 {
+    display: inline-block;
+    border: 3px solid #224F34; 
+    margin-top: 3rem; 
+    padding: 0.5rem 1rem; 
+    text-align: center;
+    width: 100% !important;
+    font-size: 16px !important;
+}
+
+.button2 a {
+    color: #224F34;
+    text-decoration: none;
+}
+
+.mt-10{
+    margin-top: 10rem !important;
+}
+
+.card4-1 h2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.card4-2{
+    color: #454545;
+    gap: 4.5rem;
+    font-weight: 600;
+}
+
+.hot{
+    color: #224F34 !important;
+    text-decoration: underline #454545;
+}
+
+.card4-3{
+    width: 100%;
+}
+
+.card4-3 img{
+    width: 100%;
+    height: 370px;
+}
+
+.first-half{
+    gap: 2rem ;
+}
+
+.second-half{
+    gap: 2rem ;
+}
+
+.card5{
+    background-color: #C2EFD4;
+    height: 32rem;
+    gap: 7rem;
+}
+
+.card5-1{
+    width: 50%;
+}
+
+.card5-1 img{
+    height: 100%;
+}
+
+.card5-2 h2{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: var(--text-color);
+}
+
+.card5-2{
+    width: 35%;
+}
+
+.card5-2 .text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    color: var(--text-color);
+}
+
+.shadow-box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #224F34;
+    border-radius: 5px;
+}
+.shadow-box .number {
+    font-size: 24px;
+    font-weight: bold;
+}
+.shadow-box .text {
+    font-size: 16px;
+}
+
+.card6-3{
+    width: 56%;
+    gap: 1rem;
+}
+
+.card6-3 img{
+    width: 100%;
+    height: 370px;
+}
+
+.container-boxes {
+    display: flex;
+    gap: 28px;
+}
+
+.box {
+    width: 375px;
+    height: 238px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    font-size: 1em;
+    gap: 16px;
+}
+
+.card8{
+    background-color: var(--text-color);
+    color : white;
+    height: 330px;
+}
+
+.brand2{
+    font-family: "Orelega One", serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 49px;
+    color: #C2EFD4;
+}
+
+a .brand2{
+    text-decoration: none;
+}
+
+.icons-prop{
+    gap: 14px;
+}
+
+.row-prop{
+    gap: 10rem;
+    width: 88%;
+}
+
+.shop{
+    gap: 8px;
+}
+
+input[type="text"] {
+    background-color: #224F34;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 16px;
+    width: 75%;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+}
+
+.in{
+    gap: 1.5rem;
+    width: 39%;
+}
+
+.buttonS {
+    background-color: white;
+    color: #224F34;
+    padding: 12px 20px;
+    border: 2px solid #224F34;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    bottom: 2px;
+    right: 93px;
+}
+
+.buttonS:hover {
+    background-color: #224F34;
+    color: white;
+}
+
+.final{
+    gap: 1rem;
+    width: 99%;
+}
+.line{
+    width: 52%;
+}
+
+.me-19{
+    margin-right: 19rem;
+}
+
+
+
+
+
+
+
